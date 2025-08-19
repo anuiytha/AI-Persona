@@ -159,40 +159,14 @@ VITE_OPENAI_API_KEY=your_openai_api_key
 3. Ask questions related to the person's expertise
 4. View source documents for transparency
 
-## Current Limitations & Future Enhancements
 
-### Current State
-- Single persona (Mallikarjuna Iytha)
-- Limited knowledge base (one document)
-- Basic conversation capabilities
 
-### Planned Improvements
-- Multiple persona support
-- Enhanced document processing
-- Conversation memory and context
-- User authentication
-- Advanced analytics and insights
-- Multi-language support
 
-## Troubleshooting
 
-### Common Issues
-1. **Missing Environment Variables**: Ensure all required .env files are created
-2. **Vector Store Connection**: Verify Supabase credentials and vector store setup
-3. **OpenAI API Limits**: Check API key validity and quota limits
-4. **Port Conflicts**: Ensure ports 3000 and 5000 are available
 
-### Performance Tips
-- Use appropriate chunk sizes for document processing
-- Implement caching for frequently accessed documents
-- Monitor API usage and rate limits
-- Optimize vector search parameters
 
-## Contributing
-This project demonstrates modern AI application development with RAG capabilities. Contributions are welcome for:
-- Enhanced persona systems
-- Improved document processing
-- Better UI/UX
-- Performance optimizations
-- Additional AI model integrations
+
+
+
+
 
