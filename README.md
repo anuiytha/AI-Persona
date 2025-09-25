@@ -6,9 +6,9 @@ https://github.com/user-attachments/assets/d6cf3d88-e943-46f5-a7e4-23e8cb40a153
 # Project Overview
 Built for Believe India, this chatbot system switches between different AI personas, each with unique expertise and communication styles. The styles uses modern AI techniques to create personalized, enagaging user experiences.
 
-# 🛠️ Technical Stack 
+# Technical Stack 
 
-# Backend & AI:
+#Backend & AI:
  - **Node.js** - Server and API endpoints
  - **Express.js** - Web application framework
  - **LangChain** - RAG pipeline and AI orchestration
@@ -20,7 +20,7 @@ Built for Believe India, this chatbot system switches between different AI perso
  - **Morgan** - HTTP request logger
  - **Rate Limiting** - API request throttling
 
-# Frontend:
+#Frontend:
 - **React.js** - Dynamic user interface
 - **Modern UI components** - Responsive design
 - **Axios** - HTTP client for API communication
