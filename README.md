@@ -1,7 +1,7 @@
 # AI Persona - RAG Chatbot Application
 A Multi-persona conversational AI system that emulates distinct expert personalities through retrrieval-augumented generation (RAG) and context-aware response generation.
 
-https://github.com/user-attachments/assets/c28f118c-16ff-46a0-8d6b-6c920188572f
+https://github.com/user-attachments/assets/d6cf3d88-e943-46f5-a7e4-23e8cb40a153
 
 # Project Overview
 Built for Believe India, this chatbot system switches between different AI personas, each with unique expertise and communication styles. The styles uses modern AI techniques to create personalized, enagaging user experiences.
