@@ -1,51 +1,37 @@
+https://github.com/user-attachments/assets/c28f118c-16ff-46a0-8d6b-6c920188572f
+
 # AI Persona - RAG Chatbot Application
+A Multi-persona conversational AI system that emulates distinct expert personalities through retrrieval-augumented generation (RAG) and context-aware response generation.
 
-## Overview
-AI Persona is a sophisticated chatbot application that allows users to interact with an AI that responds as a specific person (Mallikarjuna Iytha) based on their knowledge base, interviews, articles, and professional documents. The system uses Retrieval-Augmented Generation (RAG) to provide contextually relevant and personalized responses.
+# Project Overview
+Built for Believe India, this chatbot system switches between different AI personas, each with unique expertise and communication styles. The styles uses modern AI techniques to create personalized, enagaging user experiences.
 
-## Architecture
+# 🛠️ Technical Stack 
 
-```
-┌─────────────────┐    HTTP/API    ┌─────────────────┐
-│   React Frontend │ ◄────────────► │  Node.js Backend │
-│   (Port 3000)   │                │   (Port 5000)   │
-└─────────────────┘                └─────────────────┘
-                                              │
-                                              ▼
-                                    ┌─────────────────┐
-                                    │   OpenAI API    │
-                                    │   (GPT Models)  │
-                                    └─────────────────┘
-                                              │
-                                              ▼
-                                    ┌─────────────────┐
-                                    │  Supabase Vector│
-                                    │     Store       │
-                                    └─────────────────┘
-```
+## Backend & AI:
+ - **Node.js** - Server and API endpoints
+ - **Express.js** - Web application framework
+ - **LangChain** - RAG pipeline and AI orchestration
+ - **OpenAI API** - GPT models for text generation
+ - **Supabase** - Vector database for embeddings storage
+ - *dotenv** - Environment variable management
+ - **CORS** - Cross-origin resource sharing
+ - **Helmet** - Security middleware
+ - **Morgan** - HTTP request logger
+ - **Rate Limiting** - API request throttling
 
-## Tech Stack
-
-### Frontend
-- **React 18** - Modern React with hooks and functional components
-- **TypeScript** - Type-safe JavaScript development
-- **Vite** - Fast build tool and development server
+## Frontend:
+- **React.js** - Dynamic user interface
+- **Modern UI components** - Responsive design
 - **Axios** - HTTP client for API communication
-- **React Markdown** - Markdown rendering for responses
-- **Lucide React** - Modern icon library
-- **CSS3** - Custom styling with modern CSS features
+- **Vite** - Fast build tool and development server
+- 
 
-### Backend
-- **Node.js** - JavaScript runtime environment
-- **Express.js** - Web application framework
-- **LangChain** - Framework for building LLM applications
-- **OpenAI API** - GPT models for text generation
-- **Supabase** - Vector database for document storage
-- **dotenv** - Environment variable management
-- **CORS** - Cross-origin resource sharing
-- **Helmet** - Security middleware
-- **Morgan** - HTTP request logger
-- **Rate Limiting** - API request throttling
+## System Architecture
+  ------------      -------------------       -------------------    --------------     --------------
+ | User Input | -> | Persona Detection | ->  | Context Retrival | -> | AI Response | -> | UI Display |
+  -----------       -------------------       -------------------    --------------     --------------
+
 
 ### AI & ML
 - **OpenAI GPT-3.5-turbo** - Primary language model
@@ -81,42 +67,6 @@ User Message → Vector Search → Context Retrieval → AI Response Generation
 5. **Response Generation**: OpenAI generates contextual, persona-specific response
 6. **Source Attribution**: Response includes source documents for transparency
 
-## Key Features
-
-### RAG Implementation
-- **Semantic Search**: Uses vector embeddings for intelligent document retrieval
-- **Context-Aware Responses**: AI responses are based on actual knowledge base content
-- **Source Transparency**: Users can see which documents informed the response
-
-### Persona System
-- **Character Consistency**: AI maintains consistent personality and communication style
-- **First-Person Responses**: Responds as if it IS the person, not about them
-- **Experience-Based Answers**: Draws from the person's actual background and work
-
-### Security & Performance
-- **Rate Limiting**: Prevents API abuse (100 requests per 15 minutes)
-- **CORS Protection**: Secure cross-origin communication
-- **Input Validation**: Sanitized user inputs
-- **Error Handling**: Graceful error management and user feedback
-
-## Environment Variables
-
-### Backend (.env)
-```env
-OPENAI_API_KEY=your_openai_api_key
-SUPABASE_API_KEY=your_supabase_api_key
-SUPABASE_PROJECT_URL=your_supabase_project_url
-PORT=5000
-NODE_ENV=development
-FRONTEND_URL=http://localhost:3000
-```
-
-### Frontend (.env)
-```env
-VITE_SUPABASE_API_KEY=your_supabase_api_key
-VITE_SUPABASE_PROJECT_URL=your_supabase_project_url
-VITE_OPENAI_API_KEY=your_openai_api_key
-```
 
 ## Getting Started
 
