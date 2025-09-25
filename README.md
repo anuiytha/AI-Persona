@@ -99,27 +99,6 @@ User Message → Vector Search → Context Retrieval → AI Response Generation
 - **Input Validation**: Sanitized user inputs
 - **Error Handling**: Graceful error management and user feedback
 
-## API Endpoints
-
-### RAG Operations
-- `POST /api/rag/upload` - Upload and process documents
-- `POST /api/rag/chat` - Chat with RAG system
-- `POST /api/rag/query` - Direct document query
-- `GET /api/rag/stats` - System statistics
-- `GET /api/rag/health` - Health check
-
-### Chat Management
-- `POST /api/chat/start` - Start new chat session
-- `POST /api/chat/message` - Send message
-- `GET /api/chat/session/:id` - Get session details
-- `DELETE /api/chat/session/:id` - End session
-- `GET /api/chat/sessions` - List all sessions
-
-### System Health
-- `GET /api/health` - Basic health check
-- `GET /api/health/detailed` - Detailed system status
-- `GET /api/health/ready` - Readiness check
-
 ## Environment Variables
 
 ### Backend (.env)
