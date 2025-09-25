@@ -14,7 +14,7 @@ Built for Believe India, this chatbot system switches between different AI perso
  - **LangChain** - RAG pipeline and AI orchestration
  - **OpenAI API** - GPT models for text generation
  - **Supabase** - Vector database for embeddings storage
- - *dotenv** - Environment variable management
+ - **dotenv** - Environment variable management
  - **CORS** - Cross-origin resource sharing
  - **Helmet** - Security middleware
  - **Morgan** - HTTP request logger
