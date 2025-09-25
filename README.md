@@ -8,7 +8,7 @@ Built for Believe India, this chatbot system switches between different AI perso
 
 # Technical Stack 
 
-#Backend & AI:
+# Backend & AI:
  - **Node.js** - Server and API endpoints
  - **Express.js** - Web application framework
  - **LangChain** - RAG pipeline and AI orchestration
@@ -20,7 +20,7 @@ Built for Believe India, this chatbot system switches between different AI perso
  - **Morgan** - HTTP request logger
  - **Rate Limiting** - API request throttling
 
-#Frontend:
+# Frontend:
 - **React.js** - Dynamic user interface
 - **Modern UI components** - Responsive design
 - **Axios** - HTTP client for API communication
